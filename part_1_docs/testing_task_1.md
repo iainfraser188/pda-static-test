@@ -25,8 +25,7 @@ class CardGame:
    
 
   dif highest_card(self, card1 card2):  # called dif not def
-                                        # no comma between
-  if card1.value > card2.value:         # card1 and card2
+  if card1.value > card2.value:          # no comma between card1 and card2
     return card                         #card should be called card1
   else:                                 # incorrrect indentation
     return card2
@@ -34,9 +33,9 @@ class CardGame:
 
 
 def cards_total(self, cards):
-  total                                # should have "=0"after total
+  total                                    # should have "=0"after total
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of" + total   #incorrect indentation
   
 ```
