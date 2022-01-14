@@ -36,6 +36,6 @@ def cards_total(self, cards):
   total                                    # should have "=0"after total
   for card in cards:
     total += card.value
-    return "You have a total of" + total   #incorrect indentation
+    return "You have a total of" + total   #incorrect indentation and total should be str(total)
   
 ```
